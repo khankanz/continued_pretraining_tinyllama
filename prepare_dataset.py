@@ -18,8 +18,8 @@ def process(filepath, tokenizer):
 
 
 def prepare(
-    input_dir: Path = Path("dataset/raw/open-web-math/data"),
-    output_dir: Path = Path("dataset/processed/open-web-math"),
+    input_dir: Path = Path("data/raw/"),
+    output_dir: Path = Path("data/processed/"),
     tokenizer_path: Path = Path("./tokenizer"),
     chunk_bytes: str = "100MB",
     fast_dev_run: bool = False,
